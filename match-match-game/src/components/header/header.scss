@@ -1,0 +1,39 @@
+.header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: #4791C2;
+}
+h1{
+  margin-left: 20%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+.nav__wrapper{
+  display: flex;
+  margin-left: 100px;
+  max-width: 200px;
+  flex-basis: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.nav{
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+}
+li{
+  list-style-type: none;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.nav a:hover{
+  color: rgba(255, 255, 255, 0.61);
+}
